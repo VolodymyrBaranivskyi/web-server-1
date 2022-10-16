@@ -41,7 +41,7 @@ public class DocumentSchedulerImpl implements DocumentScheduler {
 
         documentService.sendToSecondServer(create);
 
-        log.info("createData, {}", create);
+        log.info("completed send!, {}", create);
 
     }
 
