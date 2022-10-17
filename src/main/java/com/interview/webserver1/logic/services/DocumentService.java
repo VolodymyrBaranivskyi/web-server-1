@@ -5,4 +5,5 @@ import com.interview.webserver1.model.CreateCallback;
 
 public interface DocumentService {
     CreateCallback sendToSecondServer(Create create);
+    void saveCallback(CreateCallback createCallback);
 }
